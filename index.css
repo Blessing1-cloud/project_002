@@ -1,0 +1,43 @@
+body{
+    font-family: "open sans";
+    display: grid;
+    place-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#add_todo_btn{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+}
+
+.todo_element{
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    justify-content: space-between;
+    border: 1px solid gainsboro;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.todos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
